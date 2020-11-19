@@ -76,7 +76,7 @@ export default class Example extends PureComponent {
         <YAxis />
         <Tooltip content={<CustomTooltip />} />
         <Legend />
-        <Bar dataKey="pv" barSize={20} fill="#E90570" />
+        <Bar dataKey="uv" barSize={20} fill="#E90570" />
       </BarChart>
     );
   }
